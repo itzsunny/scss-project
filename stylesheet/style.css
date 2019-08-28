@@ -1,0 +1,304 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.75;
+}
+
+*, *:before, *.after {
+  box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.grid-1auto {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  justify-content: center;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.grid-5 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.grid-5-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 3rem 0;
+}
+
+.grid-5-1 i {
+  font-color: gray;
+  font-size: 3rem;
+}
+
+.top-section h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+span {
+  font-size: 1.2rem;
+}
+
+ul {
+  margin-right: 1rem;
+  display: none;
+}
+
+a {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+.top-section {
+  background-image: linear-gradient(rgba(46, 27, 79, 0.8), rgba(46, 27, 79, 0.8)), url("https://pixelarity.com/items/demos/atmosphere/blue/images/banner.jpg");
+  position: relative;
+}
+
+.hero {
+  text-align: center;
+  padding-bottom: 8rem;
+}
+
+.hero h3 {
+  color: white;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  background-color: #35A6D9;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.35rem;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+}
+
+.section2 {
+  background-color: #F2F5F7;
+  padding: 3rem 0;
+}
+
+.box {
+  background-color: #FEFEFE;
+  width: 90%;
+  margin: 1rem 0;
+  padding: 4rem 4rem;
+}
+
+.box h3 {
+  color: #52B8E0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.box h4 {
+  color: #98A4AF;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.box p {
+  color: #99A4AF;
+  padding-bottom: 2rem;
+}
+
+.section2-btn {
+  color: #99A4AF;
+  background: transparent;
+  padding: 1rem 1.5rem;
+  border: 0.5px solid #99A4AF;
+  border-shadow: none;
+  text-transform: uppercase;
+}
+
+.features {
+  background-color: rgba(53, 165, 216, 0.9);
+  padding: 3rem 0;
+}
+
+.icons {
+  color: white;
+  font-size: 3rem;
+}
+
+.icons i {
+  padding: 50px;
+  border-radius: 50%;
+  box-shadow: inset 2px -2px 4px #35A6D9;
+}
+
+.grid-1 p {
+  color: white;
+}
+
+.section3 {
+  background-color: #fff;
+}
+
+.section3 h2 {
+  color: #35A6D9;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-top: 1.5rem;
+}
+
+.section3 h3 {
+  color: #637485;
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+}
+
+.section3 p {
+  padding: 2rem 0;
+  color: #6A7B8B;
+}
+
+.section3-image {
+  margin-left: 2rem;
+}
+
+input {
+  width: 95%;
+  padding: 0.8rem;
+  margin: 1rem 0.5rem;
+  background: rgba(0, 0, 0, 0.1);
+  border-color: transparent;
+  border-radius: 0.2rem;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+textarea {
+  width: 97%;
+  margin-left: 0.5rem;
+  background: rgba(0, 0, 0, 0.1);
+  border-color: transparent;
+  border-radius: 0.2rem;
+  color: #fff;
+}
+
+textarea::placeholder {
+  color: #fff;
+}
+
+.section-5_right {
+  background: #35A6D9;
+  padding: 4rem;
+}
+
+.section-5_right p {
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

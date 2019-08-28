@@ -1,0 +1,153 @@
+.top-section h2{
+	font-weight:600;
+	text-transform:uppercase;
+	color: white;
+	font-size: 0.8rem;
+	margin-left: 1rem;
+	margin-top: 1rem;
+}
+span{
+	font-size:1.2rem;
+}
+ul{
+	margin-right: 1rem;
+	display: none;
+}
+a{
+	list-style: none;
+	color: white;
+	text-decoration: none;
+}
+.top-section{
+	background-image: linear-gradient(rgba(#2e1b4f, 0.8), rgba(#2e1b4f, 0.8)), url("https://pixelarity.com/items/demos/atmosphere/blue/images/banner.jpg");
+	position:relative;
+}
+
+// .................hero........................
+.hero{
+	text-align:center;
+	padding-bottom: 8rem;
+}
+.hero h3{
+	color:white;
+	font-size:2rem;
+	padding-top: 1rem;
+}
+.hero h1{
+	color:white;
+	font-size:3rem;
+	padding-bottom: 2rem;
+}
+.btn{
+	background-color: #35A6D9;
+	color: white;
+	font-size: 1rem;
+	border: none;
+	border-radius: 0.35rem;
+	padding: 1rem 3rem;
+	text-transform: uppercase;
+}
+// ..............................section2..............................
+.section2{
+	background-color: #F2F5F7;
+	padding: 3rem 0;
+}
+.box{
+	background-color: #FEFEFE;
+	width: 90%;
+	margin: 1rem 0;
+	padding: 4rem 4rem;
+}
+.box h3{
+	color: #52B8E0;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+.box h4{
+	color: #98A4AF;
+	font-size: 2rem;
+	padding-bottom: 2rem;
+}
+.box p{
+	color: #99A4AF;
+	padding-bottom: 2rem;
+}
+.section2-btn{
+	color: #99A4AF;
+	background: transparent;
+	padding: 1rem 1.5rem;
+	border: 0.5px solid #99A4AF;
+	border-shadow:none;
+	text-transform: uppercase;
+}
+// ...................................features.........................
+.features{
+	background-color: rgba(#35A5D8, 0.9);
+	padding: 3rem 0;
+}
+.icons{
+	color: white;
+	font-size: 3rem;
+}
+.icons i {
+	padding:50px;
+	border-radius: 50%;
+	box-shadow:inset 2px -2px 4px #35A6D9;
+}
+.grid-1 p{
+	color: white;
+}
+// ............................................section3.........................
+.section3{
+	background-color: #fff;
+}
+.section3 h2{
+	color: #35A6D9;
+	font-size: 1rem;
+	font-weight: 600;
+	padding-top: 1.5rem;
+}
+.section3 h3{
+	color: #637485;
+	font-size: 1.8rem;
+	padding-bottom: 2rem;
+}
+.section3 p{
+	padding: 2rem 0;
+	color: #6A7B8B;
+}
+.section3-image{
+	margin-left: 2rem;
+}
+// ...............................section5...................
+input {
+	width:95%;
+	padding:0.8rem;	
+	margin: 1rem 0.5rem;
+	background: rgba(0,0,0,0.1);
+	border-color: transparent;
+	border-radius:0.2rem;
+	color: #fff;
+}
+input::placeholder {
+	color:#fff;
+}
+textarea {
+	width:97%;
+	margin-left: 0.5rem;
+	background: rgba(0,0,0,0.1);
+	border-color: transparent;
+	border-radius:0.2rem;
+	color: #fff;
+
+}
+textarea::placeholder {
+	color:#fff;
+}
+.section-5_right {
+	background: #35A6D9;
+	padding:4rem;
+}
+.section-5_right p {
+	color: #fff;
+}
