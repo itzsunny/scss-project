@@ -6,27 +6,65 @@
 	margin-left: 1rem;
 	margin-top: 1rem;
 }
-span{
-	font-size:1.2rem;
+.top-section i{
+	font-size: 2rem;
+	color:#fff;
+	position:fixed;
+	top:1rem;
+	right:1rem;
 }
-ul{
-	margin-right: 1rem;
+i:hover {
+	color:#44A7DA;
+
+}
+.chk_menu {
 	display: none;
+}
+ul {
+	position:absolute;
+	top:10rem;
+	right:35%;
+	background:rgba(#44A7DA,0.9);
+	box-shadow: 2px 8px 6px -6px darkred;
+	padding:2rem 10rem;
+	border-radius:22px;
+	display: none;
+
+}
+ul li {
+	padding:1.5rem 0rem 1.5rem 2rem; 
+}
+.menu {
+	font-size: 2rem;
+	border-bottom:1px solid #fff;
+	padding:0 0.5rem 1rem 0;
 }
 a{
 	list-style: none;
 	color: white;
 	text-decoration: none;
+	font-size:1rem;
+	text-transform: uppercase;
+}
+a:hover {
+	border-bottom:1px solid #fff;
 }
 .top-section{
 	background-image: linear-gradient(rgba(#2e1b4f, 0.8), rgba(#2e1b4f, 0.8)), url("https://pixelarity.com/items/demos/atmosphere/blue/images/banner.jpg");
-	position:relative;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+// ................hamburger.................
+.chk_menu:checked ~ ul {
+	display:block;
 }
 
 // .................hero........................
 .hero{
 	text-align:center;
-	padding-bottom: 8rem;
+	padding:17rem 0 22rem 0;
 }
 .hero h3{
 	color:white;
@@ -60,17 +98,18 @@ a{
 }
 .box h3{
 	color: #52B8E0;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-weight: 700;
 }
 .box h4{
 	color: #98A4AF;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	padding-bottom: 2rem;
 }
 .box p{
 	color: #99A4AF;
-	padding-bottom: 2rem;
+	padding-bottom: 1.5rem;
+
 }
 .section2-btn{
 	color: #99A4AF;
@@ -82,24 +121,31 @@ a{
 }
 // ...................................features.........................
 .features{
-	background-color: rgba(#35A5D8, 0.9);
+	background-color: rgba(#44A7DA, 1);
 	padding: 3rem 0;
 }
 .icons{
 	color: white;
 	font-size: 3rem;
 }
+.features h2 {
+	color:#fff;
+	text-transform: uppercase;
+	padding:0.5rem 0;
+}
 .icons i {
-	padding:50px;
+	padding:60px;
 	border-radius: 50%;
-	box-shadow:inset 2px -2px 4px #35A6D9;
+	box-shadow:inset 1px -1px 3px rgba(0,0,0, 0.1);
 }
 .grid-1 p{
 	color: white;
+	padding:0.5rem 1rem;
 }
 // ............................................section3.........................
 .section3{
 	background-color: #fff;
+	padding:3rem 0 5rem 0;
 }
 .section3 h2{
 	color: #35A6D9;
@@ -119,7 +165,44 @@ a{
 .section3-image{
 	margin-left: 2rem;
 }
+
+
+
+// .............................section4 ..................
+
+.section4 {
+	padding:5rem 0;
+	background-color:#F5F8FA;
+}
+.grid-3 {
+	padding:1.5rem 0;
+}
+.section4 h3{
+	padding:0.5rem 0;
+	color:#35A6D9;
+}
+.section4 .p {
+	padding:0 0 1rem 0;
+	font-size: 1.8rem;
+}
+.section4 p{
+	padding:0 0 1rem 0;
+
+}
+time {
+	color:#35A6D9;
+}
+
 // ...............................section5...................
+
+.section5 {
+	background:linear-gradient(rgba(#2e1b4f, 0.8), rgba(#2e1b4f, 0.8)), url("https://pixelarity.com/items/demos/atmosphere/blue/images/banner.jpg");
+	padding:8rem 0rem; 
+	background-attachment:fixed;
+}
+.sec5_left_right {
+	padding:0 0 0 1rem;
+}
 input {
 	width:95%;
 	padding:0.8rem;	
@@ -130,7 +213,7 @@ input {
 	color: #fff;
 }
 input::placeholder {
-	color:#fff;
+	color:rgba(255,255,255,0.5);
 }
 textarea {
 	width:97%;
@@ -142,7 +225,8 @@ textarea {
 
 }
 textarea::placeholder {
-	color:#fff;
+	color:rgba(255,255,255,0.5);
+	padding:1rem 0 0 .5rem;
 }
 .section-5_right {
 	background: #35A6D9;
@@ -150,4 +234,23 @@ textarea::placeholder {
 }
 .section-5_right p {
 	color: #fff;
+}
+.section5 i {
+	font-size: 1.2rem;
+	color:rgba(0,0,0,0.2);
+	margin:1.5rem 1rem 1rem 3rem ;
+}
+.section5 .phone {
+	border:none;
+	border-top: 1px solid rgba(189, 186, 186, 0.2);
+	border-bottom: 1px solid rgba(185, 180, 180, 0.2);
+}
+.section5 h3 {
+	color:#35a6d9;
+}
+// ............................footer......................
+footer {
+	padding:4rem;
+	text-align: center;
+	color:#fff;
 }

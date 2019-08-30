@@ -47,14 +47,10 @@ body{
 .grid-5 {
 	display: grid;
 	grid-template-columns:1fr 2fr;
+	background-color:#fff;
 }
 .grid-5-1 {
 	display: grid;
 	grid-template-columns:1fr 2fr ;	
-	padding:3rem 0;
-}
-
-.grid-5-1 i{
-	font-color:gray;
-	font-size: 3rem;
+	padding:2rem 0;
 }
